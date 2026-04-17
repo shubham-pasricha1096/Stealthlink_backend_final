@@ -8,7 +8,7 @@ cryptography==42.0.5
 Flask==3.0.2
 
 # Optional: Image handling for Flask (if you allow image upload in future)
-Pillow==10.2.0
+Pillow==10.4.0
 
 
 flask-socketio
