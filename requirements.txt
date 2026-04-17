@@ -10,9 +10,9 @@ Flask==3.0.2
 # Optional: Image handling for Flask (if you allow image upload in future)
 Pillow==10.4.0
 
-
 flask-socketio
 eventlet
 flask-cors
 gunicorn
 pyzbar
+upstash-redis

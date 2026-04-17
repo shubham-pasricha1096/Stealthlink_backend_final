@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.stealthlink.app-mergeDebugResources-40:/values-he/values-he.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shubh\\.gradle\\caches\\transforms-4\\d0b5e4f5d5d39b15c56736334939529b\\transformed\\zxing-android-embedded-4.3.0\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,111,161,296",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "106,156,291,381"
+                    }
+                }
+            ]
+        }
+    ]
+}

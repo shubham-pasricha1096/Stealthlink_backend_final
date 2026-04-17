@@ -1,0 +1,6 @@
+com.example.stealthlink.test.app-core-1.7.0-0 C:\Users\shubh\.gradle\caches\transforms-4\0b41ff00beec1201b4e092d85721ffda\transformed\core-1.7.0\res
+com.example.stealthlink.test.app-tracing-1.2.0-1 C:\Users\shubh\.gradle\caches\transforms-4\9c220825529407151ec5ed5907fce696\transformed\tracing-1.2.0\res
+com.example.stealthlink.test.app-androidTest-2 C:\Users\shubh\OneDrive\Desktop\MY APP\StealthLink\AndroidApp\app\build\generated\res\resValues\androidTest\debug
+com.example.stealthlink.test.app-mergeDebugAndroidTestResources-3 C:\Users\shubh\OneDrive\Desktop\MY APP\StealthLink\AndroidApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.stealthlink.test.app-mergeDebugAndroidTestResources-4 C:\Users\shubh\OneDrive\Desktop\MY APP\StealthLink\AndroidApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.stealthlink.test.app-debugAndroidTest-5 C:\Users\shubh\OneDrive\Desktop\MY APP\StealthLink\AndroidApp\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

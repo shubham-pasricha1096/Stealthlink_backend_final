@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/layout_activity_qr_scan.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/layout/activity_qr_scan.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/font_montserrat_semibold.ttf.flat",
+        "source": "com.example.stealthlink.app-main-44:/font/montserrat_semibold.ttf"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_bg_dark_gradient.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/bg_dark_gradient.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_input_background.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/input_background.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_bg_message_self.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/bg_message_self.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.stealthlink.app-pngs-38:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.stealthlink.app-pngs-38:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_btn_send_selector.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/btn_send_selector.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_send_button_bg.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/send_button_bg.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.stealthlink.app-pngs-38:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-xxxhdpi_ic_launcher_foreground2.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-xxxhdpi/ic_launcher_foreground2.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_input_field_bg.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/input_field_bg.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_chat_background.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/chat_background.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-hdpi_ic_launcher_foreground2.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-hdpi/ic_launcher_foreground2.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.stealthlink.app-pngs-38:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/font_montserrat_medium.ttf.flat",
+        "source": "com.example.stealthlink.app-main-44:/font/montserrat_medium.ttf"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/layout_activity_secure_message.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/layout/activity_secure_message.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/xml_network_security_config.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/layout_activity_main.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_btn_secondary.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/btn_secondary.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_bg_edittext.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/bg_edittext.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_bubble_other.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/bubble_other.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.stealthlink.app-pngs-38:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/layout_activity_manual_otp.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/layout/activity_manual_otp.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/xml_backup_rules.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_bg_message_other.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/bg_message_other.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_bubble_incoming.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/bubble_incoming.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/layout_activity_chat.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_bubble_self.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/bubble_self.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.stealthlink.app-pngs-38:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_bubble_outgoing.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/bubble_outgoing.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_btn_primary.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/btn_primary.xml"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-xxhdpi_ic_launcher_foreground2.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-xxhdpi/ic_launcher_foreground2.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-xhdpi_ic_launcher_foreground2.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-xhdpi/ic_launcher_foreground2.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-mdpi_ic_launcher_foreground2.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-mdpi/ic_launcher_foreground2.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.stealthlink.app-main-44:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.stealthlink.app-pngs-38:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.stealthlink.app-debug-42:/drawable_ic_send.xml.flat",
+        "source": "com.example.stealthlink.app-main-44:/drawable/ic_send.xml"
+    }
+]
