@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure OTP Decryption | StealthLink</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --success: #10b981;
+            --error: #ef4444;
+            --dark: #1f2937;
+            --light: #f9fafb;
+            --gray: #6b7280;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f4f6;
+            color: var(--dark);
+            line-height: 1.5;
+            padding: 0;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 10px 15px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin: 1rem;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .header h1 {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            font-size: 1.75rem;
+        }
+        
+        .header p {
+            color: var(--gray);
+            margin-bottom: 1.5rem;
+        }
+        
+        .tab-container {
+            display: flex;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .tab {
+            padding: 0.75rem 1rem;
+            cursor: pointer;
+            font-weight: 500;
+            color: var(--gray);
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        
+        .tab.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--dark);
+        }
+        
+        textarea, input[type="text"], input[type="file"] {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        textarea:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        
+        .file-input-container {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .file-input-button {
+            border: 1px dashed #d1d5db;
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            background-color: #f9fafb;
+        }
+        
+        .file-input-button:hover {
+            border-color: var(--primary);
+            background-color: rgba(37, 99, 235, 0.05);
+        }
+        
+        .file-input-button i {
+            font-size: 1.5rem;
+            color: var(--gray);
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        
+        input[type="file"] {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        
+        button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+        
+        button:hover {
+            background-color: #1d4ed8;
+        }
+        
+        button:active {
+            transform: scale(0.98);
+        }
+        
+        .result {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            border-radius: 8px;
+            display: none;
+        }
+        
+        .success {
+            background-color: rgba(16, 185, 129, 0.1);
+            border: 1px solid var(--success);
+            color: var(--success);
+        }
+        
+        .error {
+            background-color: rgba(239, 68, 68, 0.1);
+            border: 1px solid var(--error);
+            color: var(--error);
+        }
+        
+        .result.active {
+            display: block;
+        }
+        
+        .result-icon {
+            font-size: 1.25rem;
+            margin-right: 0.5rem;
+            vertical-align: middle;
+        }
+        
+        .otp-display {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+            word-break: break-all;
+        }
+        
+        @media (max-width: 640px) {
+            .container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>OTP Decryption</h1>
+            <p>Securely decrypt your one-time passwords using StealthLink</p>
+        </div>
+        
+        <div class="tab-container">
+            <div class="tab active" onclick="switchTab('text-tab')">Text Input</div>
+            <div class="tab" onclick="switchTab('qr-tab')">QR Code</div>
+        </div>
+        
+        <!-- Text Input Tab -->
+        <div id="text-tab" class="tab-content active">
+            <form method="POST">
+                <div class="form-group">
+                    <label for="encrypted_otp">Paste Encrypted OTP</label>
+                    <textarea name="encrypted_otp" id="encrypted_otp" placeholder="Enter your encrypted OTP here..." required></textarea>
+                </div>
+                <button type="submit">Decrypt</button>
+            </form>
+        </div>
+        
+        <!-- QR Code Tab -->
+        <div id="qr-tab" class="tab-content">
+            <form method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label>Upload QR Code</label>
+                    <div class="file-input-container">
+                        <div class="file-input-button">
+                            <i>📷</i>
+                            <span>Click to upload QR code image</span>
+                            <input type="file" name="qr_image" accept="image/*" required>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Upload & Decrypt</button>
+            </form>
+        </div>
+        
+        <!-- Results Section -->
+        {% if otp %}
+        <div class="result success active">
+            <span class="result-icon">✅</span>
+            <strong>Successfully decrypted OTP</strong>
+            <div class="otp-display">{{ otp }}</div>
+        </div>
+        {% elif error %}
+        <div class="result error active">
+            <span class="result-icon">❌</span>
+            <strong>Error:</strong> {{ error }}
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        function switchTab(tabId) {
+            // Hide all tab contents
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Deactivate all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Activate selected tab
+            document.getElementById(tabId).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>

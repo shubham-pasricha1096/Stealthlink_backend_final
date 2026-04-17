@@ -1,0 +1,18 @@
+# QR Code generation
+qrcode==7.4.2
+
+# Cryptographic encryption (AES using Fernet)
+cryptography==42.0.5
+
+# Flask web app for OTP decryption
+Flask==3.0.2
+
+# Optional: Image handling for Flask (if you allow image upload in future)
+Pillow==10.2.0
+
+
+flask-socketio
+eventlet
+flask-cors
+gunicorn
+pyzbar
