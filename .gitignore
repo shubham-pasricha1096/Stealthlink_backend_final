@@ -1,0 +1,5 @@
+stealth_env/
+__pycache__/
+uploads/
+fernet.key
+otp_key.key
