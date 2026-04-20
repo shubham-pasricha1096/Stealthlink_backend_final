@@ -2,4 +2,8 @@ stealth_env/
 __pycache__/
 uploads/
 fernet.key
-otp_key.key
+otp_key.keystealth_env/
+*.key
+.env
+__pycache__/
+uploads/
